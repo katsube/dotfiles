@@ -1,0 +1,11 @@
+# Thumbnail cache
+*~
+Thumbs.db
+
+# Folder view configuration
+.DS_Store
+Desktop.ini
+
+# external disks
+.Spotlight-V100
+.Trashes
