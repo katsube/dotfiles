@@ -7,16 +7,31 @@
 #
 
 #---------------------------------------
+# Hotname
+#---------------------------------------
+MYHOSTNAME='mba2020'
+sudo cutil --set ComputerName $HOSTNAME
+sudo scutil --set LocalHostName $HOSTNAME
+sudo scutil --set HostName $HOSTNAME
+
+#---------------------------------------
 # Mouse/Trackpad/Keyboard
 #---------------------------------------
 # ナチュラルなスクロールをOFF
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
-# トラックパッドの右下タップで右クリック
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
+# タップでクリック
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write -g com.apple.mouse.tapBehavior -bool true
+
+# マウスカーソルの速度調整（default:1.5）
+defaults write -g com.apple.mouse.scaling 3.0
+defaults write -g com.apple.trackpad.scaling 3.0
+
+# キーボードのリピート速度
+defaults write -g InitialKeyRepeat -int 15
+defaults write -g KeyRepeat -int 2
 
 #---------------------------------------
 # Dock
