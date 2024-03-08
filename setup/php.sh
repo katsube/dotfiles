@@ -8,7 +8,8 @@
 # グローバル変数
 #----------------------------------------------
 # バージョンを変更する
-PHP_INI=/usr/local/etc/php/8.3/php.ini
+# [OLD] PHP_INI=/usr/local/etc/php/8.3/php.ini
+PHP_INI=/opt/homebrew/etc/php/8.3/php.ini
 
 #----------------------------------------------
 # 設定変更
