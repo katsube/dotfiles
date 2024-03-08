@@ -20,6 +20,7 @@ cask "google-japanese-ime"
 cask "visual-studio-code"
 cask "macdown"
 cask "drawio"
+cask "figma"
 
 # Cloud Storage
 cask "google-drive"
