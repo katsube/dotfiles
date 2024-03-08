@@ -7,12 +7,14 @@
 #---------------------------------#
 # zsh-syntax-highlighting
 #---------------------------------#
-# echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
+# [OLD] echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
+# echo 'source source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
 
 #---------------------------------#
 # zsh-autosuggestions
 #---------------------------------#
-# echo 'source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
+# [OLD] echo 'source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
+# echo 'source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
 
 #---------------------------------#
 # zsh-completions
@@ -26,7 +28,9 @@
 #  fi
 #EOT
 
-# alert measures
-chmod 0755 /usr/local/share/zsh/site-functions
-chmod 0755 /usr/local/share
-chmod 0755 /usr/local/share/zsh
+# Alert measures
+# [OLD]
+#   chmod 0755 /usr/local/share/zsh/site-functions
+#   chmod 0755 /usr/local/share
+#   chmod 0755 /usr/local/share/zsh
+chmod 0755 /opt/homebrew/share
