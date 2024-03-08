@@ -21,6 +21,7 @@ cask "visual-studio-code"
 cask "macdown"
 cask "drawio"
 cask "figma"
+cask "mysqlworkbench"
 
 # Cloud Storage
 cask "google-drive"
@@ -57,23 +58,22 @@ brew "pinentry-mac"
 brew "svn"
 cask "sourcetree"
 
-
 # Server/VM/Container
-cask "virtualbox"
 cask "docker"
-cask "docker-machine"
-
-# error
+brew "ansible"
+brew "awscli"
+# UnAvailable
+#   cask "docker-machine"
+# Only Intel Mac
+#   cask "virtualbox"
+# Error
 #   cask "parallels"
 #   cask "parallels-toolbox"
 
-brew "ansible"
-brew "awscli"
 
 # Programing Laungage
 brew "php"
 brew "composer"
-
 brew "nodebrew"
 
 
@@ -83,10 +83,6 @@ cask "tunnelblick"
 cask "postman"
 cask "proxyman"
 cask "cyberduck"
-
-# DB
-cask "mysql"
-cask "mysqlworkbench"
 
 # Scan
 cask "fujitsu-scansnap-home"
