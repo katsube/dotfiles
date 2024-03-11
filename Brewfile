@@ -39,6 +39,8 @@ cask "unity-hub"
 # Video
 cask "vlc"
 brew "ffmpeg"
+# brew "youtube-dl"
+brew "yt-dlp"
 
 # Image
 cask "imageoptim"
@@ -76,7 +78,6 @@ brew "php"
 brew "composer"
 brew "nodebrew"
 
-
 # Network
 cask "vpn-by-google-one"
 cask "tunnelblick"
@@ -88,10 +89,10 @@ cask "cyberduck"
 cask "fujitsu-scansnap-home"
 
 # Util
+cask "alfred"
 cask "flux"
 cask "amorphousdiskmark"
 brew "f3"
-
 
 
 #--------------------------------------------------------
