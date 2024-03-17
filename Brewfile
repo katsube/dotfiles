@@ -77,6 +77,7 @@ brew "awscli"
 brew "php"
 brew "composer"
 brew "nodebrew"
+brew "go"
 
 # Network
 cask "vpn-by-google-one"
@@ -93,7 +94,7 @@ cask "alfred"
 cask "flux"
 cask "amorphousdiskmark"
 brew "f3"
-
+brew "pandoc"
 
 #--------------------------------------------------------
 # CLI
@@ -126,5 +127,4 @@ mas "デスクトップ時計", id: 894760156
 mas "Skitch", id: 425955336
 mas "Pixelmator Classic", id: 407963104
 mas "Kindle", id: 302584613
-
 
