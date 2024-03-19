@@ -89,12 +89,15 @@ cask "cyberduck"
 # Scan
 cask "fujitsu-scansnap-home"
 
+# Books/KDP
+cask "kindle-previewer"
+brew "pandoc"
+
 # Util
 cask "alfred"
 cask "flux"
 cask "amorphousdiskmark"
 brew "f3"
-brew "pandoc"
 
 #--------------------------------------------------------
 # CLI

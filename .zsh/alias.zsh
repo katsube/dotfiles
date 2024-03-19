@@ -12,5 +12,8 @@ alias pull='git pull'
 alias minifyjs='uglifyjs --compress --mangle --'
 alias minifycss='cleancss'
 
+# Util
+alias yt-dlp='yt-dlp -f mp4'
+
 ### macOS
 alias dnsclear='sudo killall -HUP mDNSResponder'

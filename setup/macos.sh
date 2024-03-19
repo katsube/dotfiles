@@ -10,9 +10,9 @@
 # Hotname
 #---------------------------------------
 MYHOSTNAME='mba2020'
-sudo cutil --set ComputerName $HOSTNAME
-sudo scutil --set LocalHostName $HOSTNAME
-sudo scutil --set HostName $HOSTNAME
+sudo cutil --set ComputerName $MYHOSTNAME
+sudo scutil --set LocalHostName $MYHOSTNAME
+sudo scutil --set HostName $MYHOSTNAME
 
 #---------------------------------------
 # Mouse/Trackpad/Keyboard
@@ -102,7 +102,3 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
 # ~/Libraryを表示
 #chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
-
-
-
-
