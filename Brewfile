@@ -20,6 +20,7 @@ cask "google-japanese-ime"
 cask "visual-studio-code"
 cask "macdown"
 cask "drawio"
+brew "plantuml"
 cask "figma"
 cask "mysqlworkbench"
 
@@ -41,6 +42,7 @@ cask "vlc"
 brew "ffmpeg"
 # brew "youtube-dl"
 brew "yt-dlp"
+cask "vrew"
 
 # Image
 cask "imageoptim"
