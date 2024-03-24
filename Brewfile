@@ -94,6 +94,7 @@ cask "fujitsu-scansnap-home"
 # Books/KDP
 cask "kindle-previewer"
 brew "pandoc"
+brew "pandoc-crossref"
 
 # Util
 cask "alfred"
