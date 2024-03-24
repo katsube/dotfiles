@@ -1,4 +1,4 @@
-export PATH=.:$PATH
+export PATH=.:~/bin:$PATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # $PATH の重複をなくす
