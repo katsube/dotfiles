@@ -57,6 +57,7 @@ cask "keka"
 # VCS
 brew "git"
 brew "git-secrets"
+brew "gh"
 brew "gpg"
 brew "pinentry-mac"
 brew "svn"
