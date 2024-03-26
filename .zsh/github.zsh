@@ -2,4 +2,4 @@
 eval "$(gh completion -s zsh)"
 
 # CLI gh auth
-gh auth login
+# gh auth login
