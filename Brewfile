@@ -81,6 +81,7 @@ brew "php"
 brew "composer"
 brew "nodebrew"
 brew "go"
+brew "openjdk"
 
 # Network
 cask "vpn-by-google-one"
