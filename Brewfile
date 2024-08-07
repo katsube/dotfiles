@@ -84,7 +84,7 @@ brew "go"
 brew "openjdk"
 
 # Network
-cask "vpn-by-google-one"
+# cask "vpn-by-google-one" End of service
 cask "tunnelblick"
 cask "postman"
 cask "proxyman"
