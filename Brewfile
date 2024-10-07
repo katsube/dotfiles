@@ -46,6 +46,7 @@ cask "vrew"
 
 # Image
 cask "imageoptim"
+cask "canva"
 brew "imagemagick"
 
 # Audio
