@@ -26,10 +26,22 @@ fi
 #----------------------------------------
 # Archive
 #----------------------------------------
-# Compress each profile in 7zip
+# Compress each profile in zip
 for profile in $THUNDERBIRD_PROFILE_DIR/*; do
+  # skip file
+  if [[ ! -d $profile ]]; then
+    continue
+  fi
+
+  # already exists zip file
+  if [[ -f $profile.zip ]]; then
+    echo "[Skip] $profile.zip is already exists"
+    continue
+  fi
+
+  # Archive
   echo "[Archive] $profile -> $profile.zip"
-  zip -e -r --quiet	 $profile.zip $profile
+  zip -e -r --quiet $profile.zip $profile
 done
 
 # Open the Thunderbird profile directory
