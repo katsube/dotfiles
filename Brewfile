@@ -52,6 +52,9 @@ brew "imagemagick"
 # Audio
 cask "audacity"
 
+# 3D
+cask "blender"
+
 # Archive
 cask "keka"
 
