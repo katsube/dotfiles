@@ -13,6 +13,7 @@ alias minifyjs='uglifyjs --compress --mangle --'
 alias minifycss='cleancss'
 
 # Util
+alias 7z='7zz'
 alias yt-dlp='yt-dlp -f mp4'
 
 ### macOS

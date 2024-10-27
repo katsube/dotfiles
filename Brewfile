@@ -116,6 +116,7 @@ brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
 
+brew "7zip"
 brew "htop"
 brew "colordiff"
 brew "nkf"
