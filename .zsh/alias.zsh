@@ -12,6 +12,9 @@ alias pull='git pull'
 alias minifyjs='uglifyjs --compress --mangle --'
 alias minifycss='cleancss'
 
+### Python
+alias pythonrun='source ~/.mypython/bin/activate'
+
 # Util
 alias 7z='7zz'
 alias yt-dlp='yt-dlp -f mp4'
