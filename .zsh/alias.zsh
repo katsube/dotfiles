@@ -13,7 +13,8 @@ alias minifyjs='uglifyjs --compress --mangle --'
 alias minifycss='cleancss'
 
 ### Python
-alias pythonrun='source ~/.pyenv/bin/activate'
+alias pyrun='source ~/.pyenv/bin/activate'
+alias pyexit='deactivate'
 
 # Util
 alias 7z='7zz'
