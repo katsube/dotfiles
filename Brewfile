@@ -74,8 +74,6 @@ brew "awscli"
 # vitualbox support macOS/Arm v7.1.0 or later
 cask "virtualbox"
 
-# UnAvailable
-#   cask "docker-machine"
 # Error
 #   cask "parallels"
 #   cask "parallels-toolbox"
@@ -105,10 +103,10 @@ brew "pandoc"
 brew "pandoc-crossref"
 
 # Util
-cask "alfred"
 cask "flux"
 cask "amorphousdiskmark"
 brew "f3"
+cask "battery"
 
 #--------------------------------------------------------
 # CLI
