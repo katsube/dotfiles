@@ -71,10 +71,11 @@ cask "sourcetree"
 cask "docker"
 brew "ansible"
 brew "awscli"
+# vitualbox support macOS/Arm v7.1.0 or later
+cask "virtualbox"
+
 # UnAvailable
 #   cask "docker-machine"
-# Only Intel Mac
-#   cask "virtualbox"
 # Error
 #   cask "parallels"
 #   cask "parallels-toolbox"
