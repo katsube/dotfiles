@@ -135,9 +135,9 @@ mas "Xcode", id: 497799835
 mas "CotEditor", id: 1024640650
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
+mas "Hidden Bar" id: 1452453066
 mas "MindNode", id: 1289197285
 mas "デスクトップ時計", id: 894760156
 mas "Skitch", id: 425955336
 mas "Pixelmator Classic", id: 407963104
 mas "Kindle", id: 302584613
-
