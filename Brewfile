@@ -103,6 +103,7 @@ brew "pandoc"
 brew "pandoc-crossref"
 
 # Util
+cask "backblaze"
 cask "flux"
 cask "amorphousdiskmark"
 brew "f3"
