@@ -12,4 +12,3 @@
 
 # PATHを:で区切って表示
 echo $PATH | tr ':' '\n'
-echo ""
